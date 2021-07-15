@@ -23,8 +23,22 @@ fun main(args: Array<String>) {
         println("It does not")
     }
 
-    val list = listOf("Orange", "Apple", "Bananas")
-
     val arrayList = arrayListOf("Patrick", "Michael", "Sarah")
-    arrayList.add("Sandra")
+    val list = arrayListOf("Peter")
+    println(arrayList[0])
+    println(arrayList + list)
+    println(arrayList.size)
+    println(arrayList.isEmpty())
+    println(arrayList.contains("Sarah"))
+
+    arrayList.add("Josh")
+    val changed = arrayList.add(1, "Jack")
+    println(arrayList)
+
+    val removed = arrayList.remove("Michael")
+    println(arrayList)
+    println(removed)
+
+    val subList = arrayList.subList(1, 4)
+    println(subList)
 }
