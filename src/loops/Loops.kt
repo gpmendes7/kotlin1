@@ -32,6 +32,7 @@ fun main(args: Array<String>) {
     }
     */
 
+    /*
     for (c in "Python") {
         if(c == 'o') {
             break
@@ -47,5 +48,15 @@ fun main(args: Array<String>) {
             continue
         }
         println(str)
+    }
+    */
+
+    outer@ for (i in 1..10) {
+        for(j in 1..10) {
+            if(i - j == 5) {
+                break@outer
+            }
+            println("$i - $j")
+        }
     }
 }
