@@ -1,6 +1,7 @@
 package loops
 
 fun main(args: Array<String>) {
+    /*
     var sum = 0
     for(i in 1..100) {
         sum = sum + i
@@ -14,5 +15,18 @@ fun main(args: Array<String>) {
 
     for((index, value) in list.withIndex()) {
         println("Element at $index is $value")
+    }
+    */
+
+    var x = 9
+    while(x >= 0) {
+        println(x)
+        x--
+    }
+
+    var i = 1
+    while(i <= 10) {
+        println(i)
+        i++
     }
 }
