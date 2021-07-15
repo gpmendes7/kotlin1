@@ -18,6 +18,7 @@ fun main(args: Array<String>) {
     }
     */
 
+    /*
     var x = 9
     while(x >= 0) {
         println(x)
@@ -28,5 +29,23 @@ fun main(args: Array<String>) {
     while(i <= 10) {
         println(i)
         i++
+    }
+    */
+
+    for (c in "Python") {
+        if(c == 'o') {
+            break
+        }
+        print(c)
+    }
+
+    println()
+
+    val list = listOf("Book", "Table", "Laptop")
+    for(str in list) {
+        if(!str.contains("o")) {
+            continue
+        }
+        println(str)
     }
 }
