@@ -1,5 +1,6 @@
 package oo
 
+/*
 class Person(val name: String, var age: Int) {
 
     init {
@@ -30,4 +31,4 @@ fun main(args: Array<String>) {
 
     println(person.name)
     println(person.age)
-}
+} */
